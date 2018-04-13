@@ -1,0 +1,480 @@
+/*Start Main Rules*/
+body
+{
+  height: 3000px
+}
+.container
+{
+  width: 1200px;
+  margin: auto;
+}
+.clear
+{
+  clear: both;
+}
+/*End Main Rules*/
+
+/*Start Header*/
+.header
+{
+    background-color: #005F8D
+}
+.header .navbar
+{
+  background-color:#005F8D;
+  overflow: hidden;
+  border: none;
+  color: #FFF;
+
+}
+
+
+.header ul
+{
+  list-style: none;
+  overflow: hidden;
+    margin-top: -30px;
+
+}
+.header ul li
+{
+    float: left;
+    padding:50px;
+    font-weight: bold;
+    font-size: 20px
+    
+}
+.header ul li a
+{
+    color: #FFF;
+    text-decoration: none
+}
+.header ul li.active a,
+.header ul li a:hover
+{
+    border: 2px solid #1799D5;
+    border-radius: 10px;
+    background:#FFF;
+    color:#1799D5
+}
+
+
+
+.header .slide
+{
+   /* background-image: url('../image/.png');
+        background-size: cover;
+
+    */
+    overflow: hidden;
+    height: 500px;
+        
+}
+.header .slide img
+{
+    float: right;
+    padding-top: 50px;
+    width: 589px;
+    height: 450px;
+}
+.header .slide .intro
+{
+    text-align: left;
+    padding-top: 100px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+    padding:80px 0 0 50px
+
+}
+.intro h2 span
+{
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: -50px;
+    color: yellow
+}
+.header .slide .intro button
+{
+    background-color: #FFF;
+    border: 0;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 5px 20px 5px 20px ;
+    color:#1799D5
+
+}
+.header .slide .intro button:hover
+{
+     background-color: #1799D5;
+    color: #FFF;
+    border: 2px solid #FFF
+   
+}
+.header .slide .intro label
+{    display: inline-block;
+    background-color: #1799D5;
+    border: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    margin:30px;
+    padding: 5px 20px 5px 20px ;
+
+}
+.header .slide .intro label:hover
+{
+     background-color: #FFF;
+    color: #1799D5;
+    border: 2px solid #1799D5;
+
+}
+
+
+/*Start About*/
+.about
+{ 
+    background-color: #FFF;
+    overflow: hidden;
+    text-align: left;
+    padding: 70px 0 50px 70px;
+    
+  
+
+
+}
+
+
+.about  h2
+{
+    font-size: 40px;
+    border-bottom: 2px solid #1799D5;
+    width: 210px
+}
+.about .info img
+{   
+    display: block;
+    float: right;
+    width:500px;
+    height: 500px;
+    margin-right: 20px;
+    border: 5px solid #1799D5;
+    box-shadow: 0 0 010px #333
+
+    
+}
+.about .info p
+{
+    font-size: 25px;
+    line-height: 1.7
+}
+
+.about .info label
+{
+    background-color: #FFF;
+    border: 2px solid #1799D5;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px ;
+    display: inline-block;
+    margin-top: 50px;
+    
+
+}
+.about .info  label:hover
+{
+    background-color: #FFF;
+    color: #1799D5;
+    border: 2px solid #1799D5;
+
+    
+}
+/*End About*/
+/*Start Doctors*/
+.doctor
+{
+    overflow: hidden;
+    background-color: aliceblue;
+    padding: 70px 0 50px 70px;
+    
+}
+.doctor h2
+{
+    font-size: 40px;
+    border-bottom: 2px solid #1799D5;
+    width: 415px;
+
+}
+.doctor .img-dr > div 
+{
+    width: 300px;
+    float: left;
+    margin-right: 80px
+}
+.doctor .img-dr > div img
+{
+    width: 280px;
+    height: 300px;
+    margin: 39px;
+    box-shadow: 0 0 5px #333
+}
+
+.doctor .txt-dr
+{    
+    display: inline-block;
+    margin-left: 39px;
+    margin-top: -44px;
+}
+.doctor .txt-dr  >p
+{  
+    text-align: center;
+    display: inline-block;
+    margin: 0 94px 0 0;
+    background-color: #1799D5;
+    color: #FFF;
+    line-height: 1.7;
+    padding:12px;
+    padding-left: 19px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0 0 5px #333
+
+}
+.doctor .txt-dr p:hover
+{
+    background-color:#0089B5;
+    
+}
+
+
+/*End Doctors*/
+/*Start Service*/
+.service
+{
+    background-color: #FFF;
+    overflow: hidden;
+    text-align: left;
+    padding: 70px 0 50px 70px;
+}
+.service h2
+{
+        font-size: 40px;
+    border-bottom: 2px solid #1799D5;
+    width: 480px;
+
+
+}
+.service .srv > div
+{
+    display: inline-block;
+    background-color:#0097C1;
+    color:#FFF;
+    width: 265px;
+    height: 370px;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.7;
+    float: left;
+    margin: 5px;
+    box-shadow: 0  0 5px #000
+        
+}
+.service .srv .active
+{
+        background-color: #0089B5;
+
+}
+
+.service .srv > div:hover
+{
+    background-color: #005F8D;
+    
+}
+
+.service .srv > div h3
+{
+    text-align: center
+}
+.service .srv > div p
+{
+    margin-top: -15px;
+    text-align: center;
+}
+
+.service .srv li 
+{
+    list-style: none;
+    background-color: #FFF;
+    color: #0089B5;
+    border-radius:50%;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin: auto
+}
+.service .srv li i
+{
+    margin: 22px;
+}
+/*End Service*/
+/*ٍStart portfolio*/
+.portfolio
+{
+    background-color: aliceblue;
+    overflow: hidden;
+    padding: 70px 0 50px 70px;
+}
+.portfolio h2
+{
+    font-size: 40px;
+    border-bottom: 2px solid #1799D5;
+    width: 300px;
+
+}
+
+.portfolio .img-portfolio >img
+{
+    padding-top: 30px;
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0 0 5px #000;
+}
+.portfolio .img-portfolio >img:hover
+{
+    background-color: #1799D5;
+    border: 5px solid #D2D2D2;
+}
+
+/*End Portfolio*/
+/*Start Contact */
+.contact
+{
+    background-color: #FFF;
+    overflow: hidden;
+    padding: 70px 0 50px 70px;
+    color: #
+}
+.contact h2
+{
+    font-size: 40px;
+    border-bottom: 2px solid #1799D5;
+    width: 250px;
+
+}
+.contact .form
+{
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    margin: 0 0 10px -25px;
+    
+}
+.contact .form .left-contact
+{
+    background:#005F8D;
+    color: aliceblue;
+    width: 550px;
+    height: 700px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom:10px; 
+    box-shadow: 0 0 5px #000;
+    overflow: hidden
+
+    
+
+}
+.contact .form .left-contact label
+{   
+    display: block;
+    margin: 10px 0 0 30px;
+    
+}
+.contact .form .left-contact  input[type="text"]
+{
+    width: 450px;
+    margin: 20px;
+    padding: 15px
+ 
+  
+}
+.contact .form .left-contact  textarea
+
+{
+    width: 450px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px
+ 
+
+}
+.contact .form .left-contact  input[type="submit"]
+{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: #FFF;
+    border: 5px solid #2C95D9
+}
+.contact .form .left-contact  input[type="submit"]:hover
+{
+    background-color: #2C95D9;
+    color: #FFF;
+    border: 5px solid #FFF;
+}
+
+.contact .map-contact
+{
+    float: right;
+    margin: 10px 25px 0 0;
+    width:550px;
+    height:700px;
+    background:#2C95D9;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 0 5px #000;
+    
+}
+/*End Contact */
+
+/*Start Footer*/
+.footer
+{
+    background-color: #161616;
+    overflow: hidden;
+    color: #333;
+    padding: 5px 0 20px 0;
+    margin: auto;
+    text-align: center
+}
+.footer span
+{   display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    color: #6D6D6D
+
+}
+.footer ul
+{
+    padding: 0;
+    margin: 10px;
+}
+.footer ul li
+{
+    display: inline-block;
+    margin: 5px
+}
+.footer ul li a
+{
+    color: #D3D3D3
+}
+.footer ul li i:hover
+{
+    color: #005F8D
+}
+
+
+/*End Footer*/
